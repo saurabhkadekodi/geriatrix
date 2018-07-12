@@ -1,11 +1,11 @@
-# geriatrix
+# Geriatrix
 
 Geriatrix is a simple, reproducible file system aging suite that induces
 adequate amount of file and free space fragmentation by performing a series of
 controlled file creates and deletes. Geriatrix is profile-driven and has 8
 built-in aging profiles to facilitate aging.
 
-## building
+## Building
 
 Geriatrix requires the following to compile:
 * a c++11 C++ compiler
@@ -34,7 +34,7 @@ make
 make install
 ```
 
-## parameters
+## Parameters
 
 Geriatrix has a few parameters and setting them correctly is important to
 ensure correct aging. The parameter definitions are:
@@ -73,7 +73,7 @@ ensure correct aging. The parameter definitions are:
 - -b: backend. Geriatrix supports multiple backends. This should be kept as
   "posix" (assuming you are benchmarking a posix compliant file system).
 
-## running
+## Running
 ```
 ./bin/geriatrix -n 21474836480 -u 0.8 -r 42 -m /mnt -a
 ./profiles/agrawal/age_distribution.txt -s
@@ -90,7 +90,7 @@ thresholds. The c parameter being 0 specifies that Geriatrix will not quit
 until it reaches perfect relative age distrubtion convergence (refer paper for
 details about what this means).
 
-## output
+## Output
 
 After Geriatrix finishes aging (say using the above command), an output similar
 to the following should be seen. Note that this is just an example. Your
@@ -109,6 +109,6 @@ Aging stopped because perfect convergence was achieved in input distributions.
 ================================================
 ```
 
-## contact
+## Contact
 
 In case of issues or questions, please email saukad@cs.cmu.edu.
