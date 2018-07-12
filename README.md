@@ -5,6 +5,8 @@ adequate amount of file and free space fragmentation by performing a series of
 controlled file creates and deletes. Geriatrix is profile-driven and has 8
 built-in aging profiles to facilitate aging.
 
+Geriatrix has been [published in USENIX ATC 2018](http://cs.cmu.edu/~saukad/geriatrix.pdf).
+
 ## Building
 
 Geriatrix requires the following to compile:
