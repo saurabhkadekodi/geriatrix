@@ -1,0 +1,16 @@
+11
+8 1
+32 7
+128 16
+512 40
+2048 50
+8192 46
+32768 35
+131072 20
+524288 10
+2097152 4
+8388608 1
+
+Format:
+<number of observations>
+<size in bytes> <weight in integers>

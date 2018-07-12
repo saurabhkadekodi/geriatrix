@@ -1,0 +1,17 @@
+12
+2 1
+4 1
+8 1
+16 1
+32 3
+64 35
+128 51
+256 42
+512 47
+1024 18
+2048 1
+4096 1
+
+Format:
+<number of observations>
+<age> <weight in integers>

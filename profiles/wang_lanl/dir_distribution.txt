@@ -1,0 +1,6 @@
+1
+0 1 0
+
+Format:
+<number of observations>
+<depth> <weight in integers> <subdirs>
